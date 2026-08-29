@@ -1,0 +1,10 @@
+{
+  "name": "Docker Tutorial",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "user": "ubuntu",
+  "install": ".cursor/install.sh",
+  "start": ".cursor/start.sh"
+}
