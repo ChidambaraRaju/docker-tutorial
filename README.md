@@ -12,5 +12,6 @@ I use it to document notes, mental models, and the code I write while practicing
 | [02-docker-vs-virtual-machines.md](notes/02-docker-vs-virtual-machines.md) | Containers vs virtual machines |
 | [03-images-and-containers.md](notes/03-images-and-containers.md) | Images, containers, and lifecycle |
 | [04-port-mapping.md](notes/04-port-mapping.md) | Host ports vs container ports (`-p`) |
+| [05-networks.md](notes/05-networks.md) | Docker networks, DNS, and isolation |
 
 Code examples will be added here as I work through new topics.
