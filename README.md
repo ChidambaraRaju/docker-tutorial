@@ -16,4 +16,19 @@ I use it to document notes, mental models, and the code I write while practicing
 | [06-docker-compose.md](notes/06-docker-compose.md) | Compose files, services, `image` vs `build` |
 | [07-storage.md](notes/07-storage.md) | Bind mounts and named volumes |
 
-Code examples will be added here as I work through new topics.
+## Projects
+
+Practice code under [`projects/`](projects/), in the same order as the notes.
+
+| Folder | What it practices |
+|---|---|
+| [01_first_app](projects/01_first_app/) | First Python app in a Dockerfile |
+| [02_flask_app](projects/02_flask_app/) | Flask image, `0.0.0.0`, port mapping |
+| [03_docker_app_network](projects/03_docker_app_network/) | Flask + MySQL, two Dockerfiles, container DNS |
+| [04_docker_compose](projects/04_docker_compose/) | Same stack in Compose; MySQL from `image:`, Flask from `build:` |
+
+## Acknowledgements
+
+Thanks to [Ansh Lamba](https://www.youtube.com/@AnshLambaJSR) for the 4.5-hour Docker tutorial this material follows:
+
+[Docker Tutorial for Beginners (DATA DOMAIN EDITION)](https://www.youtube.com/watch?v=nAHx_uSBfTg)
