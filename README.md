@@ -14,5 +14,6 @@ I use it to document notes, mental models, and the code I write while practicing
 | [04-port-mapping.md](notes/04-port-mapping.md) | Host ports vs container ports (`-p`) |
 | [05-networks.md](notes/05-networks.md) | Docker networks, DNS, and isolation |
 | [06-docker-compose.md](notes/06-docker-compose.md) | Compose files, services, `image` vs `build` |
+| [07-storage.md](notes/07-storage.md) | Bind mounts and named volumes |
 
 Code examples will be added here as I work through new topics.
